@@ -1,0 +1,13 @@
+0000000000000000000000000000000000000000 a24c2c8dea343deb688aa2da795a3cd859213e47 Makarand Ratnakar <Makarand@HP-Pavilion-Gaming-15.(none)> 1676028767 +0530	clone: from https://github.com/makarandrtx/GSDL-Data-Mapping-Automation-Tool.git
+a24c2c8dea343deb688aa2da795a3cd859213e47 a24c2c8dea343deb688aa2da795a3cd859213e47 Makarand Ratnakar <makarand.ratnakar11@gmail.com> 1676028988 +0530	checkout: moving from master to makarandCode
+a24c2c8dea343deb688aa2da795a3cd859213e47 f29795fb538c697cee1eba4aae021ed01a2e5fd4 Makarand Ratnakar <makarand.ratnakar11@gmail.com> 1676029043 +0530	commit: Signup and Login Screen Design v1.0
+f29795fb538c697cee1eba4aae021ed01a2e5fd4 a24c2c8dea343deb688aa2da795a3cd859213e47 Makarand Ratnakar <makarand.ratnakar11@gmail.com> 1676048327 +0530	checkout: moving from makarandCode to master
+a24c2c8dea343deb688aa2da795a3cd859213e47 f29795fb538c697cee1eba4aae021ed01a2e5fd4 Makarand Ratnakar <makarand.ratnakar11@gmail.com> 1676048373 +0530	checkout: moving from master to makarandCode
+f29795fb538c697cee1eba4aae021ed01a2e5fd4 8ee492aeefbc603eef0d100f2e03a9ef08a74050 Makarand Ratnakar <makarand.ratnakar11@gmail.com> 1676054086 +0530	commit: Admin Dashboard Design v1.0
+8ee492aeefbc603eef0d100f2e03a9ef08a74050 f5c085b7f9cd9605e29a1720dda3d8c7bba5e8b7 Makarand Ratnakar <makarand.ratnakar11@gmail.com> 1676528849 +0530	commit: Frontend completed, data input from textfields is being stored in PostgresSQL
+f5c085b7f9cd9605e29a1720dda3d8c7bba5e8b7 57f0078a12e8122ef3125b510209bad0b61de6b4 Makarand Ratnakar <makarand.ratnakar11@gmail.com> 1676529458 +0530	commit: Merge conflict resolution
+57f0078a12e8122ef3125b510209bad0b61de6b4 b4e95e42a6ef09c6b783d3fd58fbc32f874dbcde Makarand Ratnakar <makarand.ratnakar11@gmail.com> 1676530247 +0530	commit: Changed Critical File Name conflicts
+b4e95e42a6ef09c6b783d3fd58fbc32f874dbcde 129d4a81cd896bef3bd8c0dff3dc5eaf616e80e8 Makarand Ratnakar <makarand.ratnakar11@gmail.com> 1677575842 +0530	commit (merge): Backend Code Added
+129d4a81cd896bef3bd8c0dff3dc5eaf616e80e8 0d4ba7aa6012abd77bc850579d6ec5a4e3744c21 Makarand Ratnakar <makarand.ratnakar11@gmail.com> 1677577112 +0530	commit: Final Backend Added
+0d4ba7aa6012abd77bc850579d6ec5a4e3744c21 1e17d4d29271e8f150ed75812dd779c08a6e6687 Makarand Ratnakar <makarand.ratnakar11@gmail.com> 1677577270 +0530	commit: Merge branch 'makarandCode' of https://github.com/makarandrtx/GSDL-Data-Mapping-Automation-Tool into makarandCode
+1e17d4d29271e8f150ed75812dd779c08a6e6687 57fdc2b981fd0f6575a58cb933d7140e4f6a88df Makarand Ratnakar <makarand.ratnakar11@gmail.com> 1677577342 +0530	commit (merge): resolving conflicts
