@@ -1,0 +1,73 @@
+#:kivy 2.1.0
+<AdminScreen>:
+    MDCard:
+        size_hint: None, None
+        size: 400, 1600
+        pos_hint: {"center_x": 0, "center_y": 0.5}
+        elevation: 5
+
+    MDCard:
+        size_hint: None, None
+        size: 250, 150
+        pos_hint: {"center_x": 0.45, "center_y": 0.820}
+        elevation: 5
+        
+    MDCard:
+        size_hint: None, None
+        size: 250, 150
+        pos_hint: {"center_x": 0.805, "center_y": 0.820}
+        elevation: 5
+
+    MDCard:
+        size_hint: None, None
+        size: 250, 150
+        pos_hint: {"center_x": 0.45, "center_y": 0.495}
+        elevation: 5
+
+    MDCard:
+        size_hint: None, None
+        size: 250, 150
+        pos_hint: {"center_x": 0.805, "center_y": 0.495}
+        elevation: 5
+
+    MDCard:
+        size_hint: None, None
+        size: 250, 150
+        pos_hint: {"center_x": 0.6275, "center_y": 0.170}
+        elevation: 5
+
+    MDRaisedButton:
+        text: "Dashboard"
+        pos_hint: {"center_x": 0.125, "center_y": 0.870}
+        md_bg_color: "grey"
+
+    MDRaisedButton:
+        text: "Logs"
+        pos_hint: {"center_x": 0.125, "center_y": 0.760}
+        md_bg_color: "grey"
+
+    MDRaisedButton:
+        text: "Version System"
+        pos_hint: {"center_x": 0.125, "center_y": 0.650}
+        md_bg_color: "grey"
+
+    MDRaisedButton:
+        text: "DB Administrator"
+        pos_hint: {"center_x": 0.125, "center_y": 0.540}
+        md_bg_color: "grey"
+        on_release: app.onadmin()
+
+    MDRaisedButton:
+        text: "Users List"
+        pos_hint: {"center_x": 0.125, "center_y": 0.430}
+        md_bg_color: "grey"
+
+    MDRaisedButton:
+        text: "Validator"
+        pos_hint: {"center_x": 0.125, "center_y": 0.320}
+        md_bg_color: "grey"
+
+    MDRaisedButton:
+        text: "Change Password"
+        pos_hint: {"center_x": 0.125, "center_y": 0.210}
+        md_bg_color: "grey"

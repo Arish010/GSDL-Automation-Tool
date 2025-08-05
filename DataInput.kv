@@ -1,0 +1,18 @@
+#:kivy 2.1.0
+<DataInput>:
+    name: "Data_Input"
+    MDRaisedButton:
+        text: ".SHAPE FILE"
+        pos_hint: {"center_x": 0.2, "center_y": 0.60}
+        on_release: app.btnfunc()
+
+    MDRaisedButton:
+        text: ".XLSX FILE"
+        pos_hint: {'center_x': 0.2, 'center_y': 0.45}
+        on_release: app.btnfunc()
+
+
+    MDRaisedButton:
+        pos_hint: {"center_x": 0.5, "center_y": 0.1}
+        text: "Start"
+        on_release: app.onstart()

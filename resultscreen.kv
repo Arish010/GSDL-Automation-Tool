@@ -1,0 +1,26 @@
+#:kivy 2.1.0
+<ResultScreen>:
+    MDRaisedButton:
+        text: "Revert Data / Undo"
+        md_bg_color: "grey"
+        pos_hint: {"center_x": 0.205, "center_y": 0.895}
+        size_hint: {.35, .130}
+
+    MDRaisedButton:
+        text: "Show Preview"
+        md_bg_color: "grey"
+        pos_hint: {"center_x": 0.205, "center_y": 0.695}
+        size_hint: {.35, .130}
+
+    MDRaisedButton:
+        text: "Save in Table (Name)"
+        md_bg_color: "grey"
+        pos_hint: {"center_x": 0.205, "center_y": 0.105}
+        size_hint: {.35, .130}
+
+    MDRaisedButton:
+        text: "Write to Database / Submit"
+        md_bg_color: "grey"
+        pos_hint: {"center_x": 0.805, "center_y": 0.105}
+        size_hint: {.35, .130}
+        on_release: app.onfinal()

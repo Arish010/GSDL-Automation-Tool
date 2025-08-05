@@ -1,0 +1,81 @@
+#:kivy 2.1.0
+<SignupScreen>:
+    name: "signup_screen"
+    MDCard:
+        size_hint: None, None
+        size: 300, 425
+        pos_hint: {"center_x": 0.5, "center_y": 0.5}
+        elevation: 5
+
+    MDLabel:
+        text: "Data Mapping Automation Tool"
+        font_size: 18
+        pos_hint: {'center_x': 0.845, 'center_y': 0.720}
+        side_hint_y: None
+        width: 100
+
+    MDIconButton:
+        icon: "dark-mode"
+        pos_hint: {"center_x": .965, "center_y": .96}
+
+    MDRaisedButton:
+        pos_hint: {"center_x": 0.5, "center_y": 0.200}
+        text: "Sign Up"
+        md_bg_color: "grey"
+<<<<<<< HEAD:signupRevised.kv
+        on_release: app.printtoconsole()
+=======
+        on_release: app.on_signup()
+>>>>>>> 115aee826462337d8f1def349986205d9bb4f7be:signup.kv
+
+    MDTextField:
+        id: username_field
+        hint_text: "Enter Username"
+        helper_text: ""
+        font_size: 24
+        background_color: 
+        helper_text_mode: "on_focus"
+        pos_hint: {"center_x": 0.5, "center_y": 0.600}
+        text_size: 36
+        size_hint_x: None
+        width: 175
+
+    MDTextField:
+        id: password_field
+        hint_text: "Enter Password"
+        helper_text: ""
+        font_size: 24
+        background_color: 
+        helper_text_mode: "on_focus"
+        pos_hint: {"center_x": 0.5, "center_y": 0.500}
+        text_size: 36
+        size_hint_x: None 
+        width: 175
+        password: True
+    
+    MDTextField:
+<<<<<<< HEAD:signupRevised.kv
+        id: repeat_password_field
+        hint_text: "Repeat Password"
+=======
+        id: email_field
+        hint_text: "Enter Email"
+>>>>>>> 115aee826462337d8f1def349986205d9bb4f7be:signup.kv
+        helper_text: ""
+        font_size: 24
+        background_color: 
+        helper_text_mode: "on_focus"
+        pos_hint: {"center_x": 0.5, "center_y": 0.400}
+        text_size: 36
+        size_hint_x: None
+        width: 175
+        password: True
+
+    MDDropDownItem:
+        id: drop_item
+        pos_hint: {'center_x': .5, 'center_y': .300}
+<<<<<<< HEAD:signupRevised.kv
+        text: 'Admin'
+=======
+        text: 'Admin'
+>>>>>>> 115aee826462337d8f1def349986205d9bb4f7be:signup.kv

@@ -1,0 +1,43 @@
+#:kivy 2.1.0
+<LoginScreen>:
+    name: 'login'
+    MDCard:
+        size_hint: None, None
+        size: 300, 400
+        pos_hint: {"center_x": 0.5, "center_y": 0.5}
+        elevation: 5
+
+    MDLabel:
+        text: "Login"
+        font_size: 18
+        pos_hint: {'center_x': 0.975, 'center_y': 0.720}
+        side_hint_y: None
+        width: 100
+
+    MDRaisedButton:
+        pos_hint: {"center_x": 0.5, "center_y": 0.270}
+        text: "Log In"
+        md_bg_color: "grey"
+        on_release: app.on_login()
+
+    MDTextField:
+        hint_text: "Enter Username"
+        helper_text: ""
+        font_size: 24
+        background_color: 
+        helper_text_mode: "on_focus"
+        pos_hint: {"center_x": 0.5, "center_y": 0.600}
+        text_size: 40
+        size_hint_x: None
+        width: 175
+
+    MDTextField:
+        hint_text: "Enter Password"
+        helper_text: ""
+        font_size: 24
+        background_color: 
+        helper_text_mode: "on_focus"
+        pos_hint: {"center_x": 0.5, "center_y": 0.450}
+        text_size: 40
+        size_hint_x: None 
+        width: 175
